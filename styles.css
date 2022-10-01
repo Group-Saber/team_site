@@ -64,6 +64,13 @@ li {
     margin-right: 20px;
 }
 
+.title {
+    text-align: center;
+    border-radius: 5px;
+    background-color: var(--red);
+    padding: 50px 100px;
+}
+
 .team-members {
     display: inline-flex;
     gap: 25px;
@@ -73,7 +80,7 @@ li {
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     border-radius: 5px;
     text-align: center;
-    background-color: #444444;
+    background-color: var(--gray);
     width: 18vw;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -107,6 +114,7 @@ li {
 
 #welcome-section {
     height: 100vh;
+    background-image: url("https://files.nc.gov/osbm/budget%20-%20iStock_000041295790_Large.jpg?VersionId=cUoo.GYt_s8QOQlldayC56bzmM1XHmyK");
     background-color: var(--red);
     color: var(--black);
 }
