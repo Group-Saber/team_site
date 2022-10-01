@@ -112,6 +112,22 @@ li {
     color: var(--red);
 }
 
+.github {
+    border-radius: 5px;
+    background-color: var(--red);
+    margin-top: 15px;
+    padding: 25px 50px;
+}
+
+.github-link {
+    color: var(--black);
+    font-size: 28px;
+}
+
+.github-link:hover {
+    color: white;
+}
+
 #welcome-section {
     height: 100vh;
     background-image: url("https://files.nc.gov/osbm/budget%20-%20iStock_000041295790_Large.jpg?VersionId=cUoo.GYt_s8QOQlldayC56bzmM1XHmyK");
