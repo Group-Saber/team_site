@@ -82,8 +82,7 @@ li {
     text-align: center;
     background-color: var(--gray);
     width: 18vw;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding: 10px 0;
 }
 
 .project-tile {
