@@ -46,6 +46,10 @@ h2 {
     padding-bottom: 20px;
 }
 
+h3 {
+    font-size: 28px;
+}
+
 section {
     width: 100%;
     display: flex;
@@ -60,8 +64,45 @@ li {
     margin-right: 20px;
 }
 
+.team-members {
+    display: inline-flex;
+    gap: 25px;
+}
+
+.member {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    border-radius: 5px;
+    text-align: center;
+    background-color: #444444;
+    width: 18vw;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
 .project-tile {
     text-align: center;
+}
+
+.position {
+    padding-top: 10px;
+    font-size: 18px;
+    font-style: italic;
+}
+
+.container {
+    font-size: 20px;
+    background-color: #333333;
+    margin: 10px 20px;
+    padding: 10px 0;
+}
+
+.container:hover {
+    background-color: aliceblue;
+}
+
+.button {
+    display: block;
+    color: var(--red);
 }
 
 #welcome-section {
