@@ -66,7 +66,7 @@ li {
 
 .title {
     text-align: center;
-    border-radius: 5px;
+    border-radius: 4px;
     background-color: var(--red);
     padding: 50px 100px;
 }
@@ -78,7 +78,7 @@ li {
 
 .member {
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    border-radius: 5px;
+    border-radius: 4px;
     text-align: center;
     background-color: var(--gray);
     width: 18vw;
@@ -96,7 +96,7 @@ li {
 }
 
 .container {
-    border-radius: 5px;
+    border-radius: 4px;
     font-size: 20px;
     background-color: #333333;
     margin: 10px 20px;
@@ -112,10 +112,18 @@ li {
     color: var(--red);
 }
 
+.row {
+    display: flex;
+}
+
 .github {
-    border-radius: 5px;
+    border-radius: 4px;
     background-color: var(--red);
     margin-top: 15px;
+}
+
+.github:first-of-type {
+    margin-right: 25px;
 }
 
 .github-link {
@@ -126,14 +134,20 @@ li {
 }
 
 .github-link:hover {
-    border-radius: 5px;
+    border-radius: 4px;
     background-color: white;
-    color: var(--red);
+    color: var(--black);
 }
 
 #welcome-section {
     height: 100vh;
     background-image: url("https://files.nc.gov/osbm/budget%20-%20iStock_000041295790_Large.jpg?VersionId=cUoo.GYt_s8QOQlldayC56bzmM1XHmyK");
+    background-color: var(--black);
+    color: var(--black);
+}
+
+#about {
+    height: 100vh;
     background-color: var(--red);
     color: var(--black);
 }
@@ -142,12 +156,6 @@ li {
     height: 100vh;
     background-color: var(--black);
     color: var(--red);
-}
-
-#about {
-    height: 100vh;
-    background-color: var(--red);
-    color: var(--black);
 }
 
 #navbar {
