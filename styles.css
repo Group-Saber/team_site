@@ -58,17 +58,22 @@ section {
     align-items: center;
 }
 
-li {
+.nav-link {
     display: inline;
     font-size: 20px;
     margin-right: 20px;
 }
 
 .title {
-    text-align: center;
+    width: 30%;
+    height: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     border-radius: 4px;
     background-color: var(--red);
-    padding: 50px 100px;
+    /* padding: 50px 100px; */
 }
 
 .team-members {
@@ -112,6 +117,10 @@ li {
     color: var(--red);
 }
 
+.button:hover {
+    color: var(--black);
+}
+
 .row {
     display: flex;
 }
@@ -120,10 +129,11 @@ li {
     border-radius: 4px;
     background-color: var(--red);
     margin-top: 15px;
+    margin-right: 25px;
 }
 
-.github:first-of-type {
-    margin-right: 25px;
+.github:last-of-type {
+    margin-right: 0;
 }
 
 .github-link {
@@ -141,12 +151,24 @@ li {
 }
 
 .about-text {
-    width: 30%;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     border-radius: 4px;
     background-color: var(--gray);
-    color: var(--black);
+    color: var(--red);
     padding: 15px;
+}
+
+.about-list {
+    padding: 25px;
+}
+
+.about-item {
+    font-size: 24px;
+    margin-bottom: 25px;
+}
+
+.about-item:last-of-type {
+    margin-bottom: 0;
 }
 
 #welcome-section {
@@ -157,13 +179,13 @@ li {
 }
 
 #about {
-    height: 100vh;
-    background-color: var(--red);
-    color: var(--black);
+    height: 60vh;
+    background-color: var(--black);
+    color: var(--red);
 }
 
 #team {
-    height: 100vh;
+    height: 60vh;
     background-color: var(--black);
     color: var(--red);
 }
